@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"net/http/httputil"
 	"os"
-	"httpDistri/smux"
+	"http-and-websocket-reverse-proxy/smux"
 	"strings"
 	"sync"
 	"time"

@@ -6,7 +6,7 @@ import (
         "log"
         "net"
         "os"
-        "httpDistri/smux"
+        "http-and-websocket-reverse-proxy/smux"
         "time"
 )
 var (

@@ -8,3 +8,4 @@ usage
 server: go build go run
 client: go build go run
 
+https://github.com/cxq1915495507/http-and-websocket-reverse-proxy/blob/master/aa.PNG

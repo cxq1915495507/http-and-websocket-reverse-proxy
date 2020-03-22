@@ -163,17 +163,17 @@ func main() {
 	myApp.Usage = "server"
 	myApp.Version = VERSION
 	myApp.Flags = []cli.Flag{
-		cli.StringFlag{
+		&cli.StringFlag{
 			Name:  "listen,l",
 			Value: ":29900",
 			Usage: "local listen address",
 		},
-		cli.IntFlag{
+		&cli.IntFlag{
 			Name:  "sockbuf",
 			Value: 4194304, // socket buffer size in bytes
 			Usage: "per-socket buffer in bytes",
 		},
-		cli.IntFlag{
+		&cli.IntFlag{
 			Name:  "keepalive",
 			Value: 10, // nat keepalive interval in seconds
 			Usage: "seconds between heartbeats",
